@@ -1,0 +1,15 @@
+@media (min-width: 410px) and (max-width: 900px) {
+    .hero-section{
+        height: 100vw;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 2%;
+    }
+    .right-profile-iten img{
+     margin-left:60px;
+    }
+    .get-in-touch{
+        width: 80%;
+        margin-top: 15px;
+    }
+    }

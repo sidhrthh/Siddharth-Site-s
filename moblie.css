@@ -19,4 +19,12 @@
     padding-right: 10%;
     height: 75vw;
     }
+    .skills-section{
+        padding-left: 7%;
+        padding-right: 7%;
+        color: rgb(165, 165, 165);
+    }
+    .row {
+        text-align: center;
+    }
 }

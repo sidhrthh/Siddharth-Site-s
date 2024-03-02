@@ -70,3 +70,45 @@ transition: 0.1em;
 .col-lg-2 img{
     margin-top: 20px;
 }
+
+/* Icon style */
+.icon-name{
+    margin-top: 10px;
+}
+.css-name{
+padding-left: 14px;
+}
+.javascript-name {
+    margin-left: -10px;
+}
+.typescript-name{
+    margin-left: -10px;
+}
+.react-name{
+    margin-left: 10px;
+}
+.express{
+    padding-top: 20px;
+}
+.express-name {
+    margin-top: 22px;
+    padding-left: 14px;
+}
+
+.sass-name{
+    margin-top: 18px;
+}
+
+.tailwind-name{
+    margin-top: 40px;
+}
+.icon-margin-top{
+    margin-top: 50px!important;
+}
+.git-name{
+    padding-left: 21px;
+}
+.notion-name{
+    padding-left: 10px;
+
+}

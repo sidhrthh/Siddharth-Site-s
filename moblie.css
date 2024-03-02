@@ -1,30 +1,80 @@
 @media (min-width: 410px) and (max-width: 900px) {
-    .hero-section{
+    .hero-section {
         height: 120vw;
         padding-left: 7%;
         padding-right: 7%;
         padding-top: 2%;
     }
-    .right-profile-iten img{
-     margin-left:60px;
+
+    .right-profile-iten img {
+        margin-left: 60px;
     }
-    .get-in-touch{
+
+    .get-in-touch {
         width: 100%;
         margin-top: 15px;
     }
 
     /* About me */
-    .about-me{
-    padding-left: 10%;
-    padding-right: 10%;
-    height: 75vw;
+    .about-me {
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 75vw;
     }
-    .skills-section{
+
+    .skills-section {
         padding-left: 7%;
         padding-right: 7%;
         color: rgb(165, 165, 165);
     }
+
     .row {
         text-align: center;
+    }
+
+    .css-name {
+        padding-left: 0;
+    }
+
+    .javascript-name {
+        margin-left: 0;
+    }
+
+    .typescript-name {
+        margin-left: 0;
+    }
+
+    .react-name {
+        margin-left: 0;
+    }
+
+    .express {
+        padding-top: 0;
+    }
+
+    .express-name {
+        margin-top: 15px;
+        padding-left: 0;
+    }
+
+    .sass-name {
+        margin-top: 0;
+    }
+
+    .tailwind-name {
+        margin-top: 0;
+    }
+
+    .icon-margin-top {
+        margin-top: 20px!important;
+    }
+
+    .git-name {
+        padding-left: 0;
+    }
+
+    .notion-name {
+        padding-left: 0;
+
     }
 }

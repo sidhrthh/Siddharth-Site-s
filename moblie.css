@@ -6,9 +6,7 @@
         padding-top: 2%;
     }
 
-    .right-profile-iten img {
-        margin-left: 60px;
-    }
+
 
     .get-in-touch {
         width: 100%;
@@ -77,4 +75,10 @@
         padding-left: 0;
 
     }
+/* Project Section */
+    .project-section{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
 }

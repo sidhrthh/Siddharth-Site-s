@@ -45,7 +45,7 @@
     <!-- hero section -->
     <div class="row">
       <div class="col-sm-7 left-profile-item">
-        <p class="name mb-0">Siddharth Pandro</p>
+        <p class="name mb-0 text-white">Siddharth Pandro</p>
         <p class="skill mb-1">Front-end Developer & Designer</p>
         <p class="location">
           <img src="icons/location-arrow.png" alt="location" />
@@ -64,7 +64,7 @@
 
   <!-- About Section -->
   <div class="about-me">
-    <h2 class="card-title pt-5">About Me</h2>
+    <h2 class="card-title pt-5 text-white">About Me</h2>
     <div class="">
       Hey there! I'm Siddharth, a Front-end Developer and Designer based in
       India. What does that mean? Well, I make websites look great and work
@@ -77,7 +77,7 @@
 
   <!-- Skills -->
   <div class="skills-section bg-color">
-    <h2 class="card-title pt-5">Skills</h2>
+    <h2 class="card-title pt-5 text-white">Skills</h2>
     <p>The skills, tools & technology I am really good at:</p>
 
     <!-- Grid -->
@@ -131,16 +131,17 @@
 
   <!-- Projects -->
   <div class="project-section">
-    <h2 class="pt-5">Projects</h2>
+    <h2 class="pt-5 text-white">Projects</h2>
     <p>That i have built throughout my journey:</p>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-      
+
       <div class="col">
         <div class="card">
           <img src="project images/Project 01.webp" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">ArtVista</h5>
-            <p class="card-text">Virtual art gallery website providing a seamless online platform for artists to showcase their work.</p>
+            <h5 class="card-title text-white">ArtVista</h5>
+            <p class="card-text">Virtual art gallery website providing a seamless online platform for artists to
+              showcase their work.</p>
             <a href="#" class="card-link btn project-btn">Live <i class="fa-regular fa-share-from-square"></i> </a>
             <a href="#" class="card-link btn project-btn"> Code <i class="fa-brands fa-github"></i> </a>
           </div>
@@ -151,8 +152,9 @@
         <div class="card">
           <img src="project images/Project 05.webp" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Portify</h5>
-            <p class="card-text">Personalized protfolio platform for freelance professionals with a clean and modern design.</p>
+            <h5 class="card-title text-white">Portify</h5>
+            <p class="card-text">Personalized protfolio platform for freelance professionals with a clean and modern
+              design.</p>
             <a href="#" class="card-link btn project-btn">Live <i class="fa-regular fa-share-from-square"></i> </a>
             <a href="#" class="card-link btn project-btn"> Code <i class="fa-brands fa-github"></i> </a>
           </div>
@@ -163,8 +165,9 @@
         <div class="card">
           <img src="project images/Project 02.webp" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Konnect</h5>
-            <p class="card-text">Social forum platform fostering community engagement with real-time updates & threaded discussions.</p>
+            <h5 class="card-title text-white">Konnect</h5>
+            <p class="card-text">Social forum platform fostering community engagement with real-time updates & threaded
+              discussions.</p>
             <a href="#" class="card-link btn project-btn">Live <i class="fa-regular fa-share-from-square"></i> </a>
             <a href="#" class="card-link btn project-btn"> Code <i class="fa-brands fa-github"></i> </a>
           </div>
@@ -175,8 +178,9 @@
         <div class="card">
           <img src="project images/Project 04.webp" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">LaunchPad</h5>
-            <p class="card-text">Landing page for the launch of a moblie application with a sleek and moblie-responsive interface.</p>
+            <h5 class="card-title text-white">LaunchPad</h5>
+            <p class="card-text">Landing page for the launch of a moblie application with a sleek and moblie-responsive
+              interface.</p>
             <a href="#" class="card-link btn project-btn">Live <i class="fa-regular fa-share-from-square"></i> </a>
             <a href="#" class="card-link btn project-btn"> Code <i class="fa-brands fa-github"></i> </a>
           </div>
@@ -187,8 +191,9 @@
         <div class="card">
           <img src="project images/Project 03.webp" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Learnify</h5>
-            <p class="card-text">Educational app promoting interactive learning experience with gamification elements and progress tracking.</p>
+            <h5 class="card-title text-white">Learnify</h5>
+            <p class="card-text">Educational app promoting interactive learning experience with gamification elements
+              and progress tracking.</p>
             <a href="#" class="card-link btn project-btn">Live <i class="fa-regular fa-share-from-square"></i> </a>
             <a href="#" class="card-link btn project-btn"> Code <i class="fa-brands fa-github"></i> </a>
           </div>
@@ -196,12 +201,42 @@
       </div>
 
     </div>
+  </div>
+
+  <!-- Contact section -->
+  <div class="contact-section">
+    <h2 class="card-title pt-5 text-white font-weight-bold">Get in touch</h2>
+
+    <div class="contant-box flex justify-content-between sec-txt-color">
+
+      <div class="email ">
+        <h4 class="card-title pt-5 text-white font-weight-bold">Email</h4>
+        <span id="myEmail">sidharthpandro50@gmail.com</span>
+        <button class="contact-copy-btn sec-txt-color" onclick="copyEmail()"><i class="fa-regular fa-copy"></i></button>
+      </div>
+
+       <div class="phone">
+        <h4 class="card-title pt-5 text-white font-weight-bold">Phone</h4>
+        <span id="myPhone">+1-999-999-9999</span>
+        <button class="contact-copy-btn sec-txt-color" onclick="copyPhone()"><i class="fa-regular fa-copy"></i></button>
+      </div>
+
+
     </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
+
+
+
+  </div>
+
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="index.js"></script>
 </body>
 
 </html>
